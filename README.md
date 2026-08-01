@@ -163,6 +163,7 @@ The goal isn't just to complete 90 days—it's to build practical skills, create
 
 | Project | Status |
 |---------|--------|
+| 🐧 Linux File Management | ✅ Completed | 
 | ☁️ AWS Three-Tier Architecture | 🔜 |
 | 🌐 Static Website Hosting | 🔜 |
 | 🐳 Dockerized Web Application | 🔜 |
