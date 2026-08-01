@@ -1,4 +1,4 @@
-# 📂 Linux File Management Challenge
+# 📂 Linux File Management
 
 A hands-on Linux project that demonstrates essential file and directory management operations through a real-world business scenario.
 
@@ -62,6 +62,7 @@ ABC-Technologies
 └── Logs
     └── app.log
 ```
+
 
 ---
 
