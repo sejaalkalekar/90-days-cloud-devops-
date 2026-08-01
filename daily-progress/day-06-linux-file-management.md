@@ -66,21 +66,8 @@ During this project, I completed the following tasks:
 
 ---
 
-# 📸 Screenshots
-
-Add screenshots from:
-
-* Project directory structure
-* Terminal commands
-* File copy operations
-* File rename operations
-* Permission changes
-* Compression commands
-
-> Images can be stored in:
->
-> `assets/terminal-screenshots/`
-
+## 📸 Final Result Screenshot
+<img src="../assets/terminal-screenshots/day-06-file-management.jpg">
 ---
 
 # ⚠️ Challenges Faced
@@ -109,22 +96,20 @@ Add screenshots from:
 ---
 
 # 📚 Related Notes
+## 🔗 Related Resources
 
-* [Linux File Management](../../notes/linux/file-management.md)
-
+| Resource | Link |
+|----------|------|
+| 📚 Notes | [Linux File Management](../../notes/linux/file-management.md) |
+| 🚀 Project | [Linux File Management Challenge](../../projects/linux-system-administration/linux-file-management-challenge/README.md) |
+| 📖 Cheat Sheet | [Linux Command Cheat Sheet](../../resources/linux-command-cheatsheet.md) |
 ---
 
-# 🚀 Related Project
+## 🔗 Related Resources
 
-* [Linux File Management Challenge](../../projects/linux-system-administration/linux-file-management-challenge/README.md)
-
----
-
-# 📖 Related Resources
-
-* [Linux Command Cheat Sheet](../../resources/linux-command-cheatsheet.md)
-
----
+[![Notes](https://img.shields.io/badge/📚-Notes-blue?style=for-the-badge)](../../notes/linux/file-management.md)
+[![Project](https://img.shields.io/badge/🚀-Project-success?style=for-the-badge)](../../projects/linux-system-administration/linux-file-management-challenge/README.md)
+[![Cheat Sheet](https://img.shields.io/badge/📖-Cheat_Sheet-orange?style=for-the-badge)](../../resources/linux-command-cheatsheet.md)
 
 # 🎯 Next Step
 
