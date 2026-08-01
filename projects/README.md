@@ -19,24 +19,32 @@ Each project includes:
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Structure
 
-```
+```text
 projects/
 │
-├── project-01-linux-file-management/
-├── project-02-user-&-permission-management-lab/
-├── project-03-build-a-server-health-check-script/
-├── project-04-SSH-into-a-Linux-Server-&-Document-the-Setup/
-├── project-05-secure-IAM-setup/
-├── project-06-deploy-apache-on-EC2/
-├── project-07-build-a-custom-VPC/
-├── project-08-S3-static-website-+-cloudWatch/
-├── project-09-install-docker-&-run-first-container/
-├── project-10-dockerize-a-web-app/
-├── project-11-build-AWS-infrastructure-with-terraform/
-├── project-12-CI/CD-pipeline-demo/
-└── ...
+├── linux-system-administration/
+│   ├── linux-file-management/
+│   ├── user-permission-management-lab/
+│   ├── server-health-check-script/
+│   └── ssh-linux-server-setup/
+│
+├── aws-cloud/
+│   ├── secure-iam-setup/
+│   ├── deploy-apache-on-ec2/
+│   ├── build-custom-vpc/
+│   └── s3-static-website-cloudwatch/
+│
+├── docker/
+│   ├── install-docker-first-container/
+│   └── dockerize-web-application/
+│
+├── terraform/
+│   └── aws-infrastructure-with-terraform/
+│
+└── cicd/
+    └── github-actions-pipeline-demo/
 ```
 
 ---

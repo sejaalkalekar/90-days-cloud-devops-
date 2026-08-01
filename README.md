@@ -45,8 +45,9 @@ The goal isn't just to complete 90 days—it's to build practical skills, create
 - ✅ Implement CI/CD pipelines
 - ✅ Learn Infrastructure as Code with Terraform
 - ✅ Explore Kubernetes fundamentals
-- ✅ Share daily progress publicly
-- ✅ Build a portfolio recruiters can explore
+- ✅ Document hands-on projects
+- ✅ Build interview-ready notes
+- ✅ Create a recruiter-friendly portfolio
 
 ---
 
@@ -161,31 +162,22 @@ The goal isn't just to complete 90 days—it's to build practical skills, create
 
 # 🚀 Featured Projects
 
-| Project | Status |
-|---------|--------|
-| 🐧 Linux File Management | ✅ Completed | 
-| ☁️ AWS Three-Tier Architecture | 🔜 |
-| 🌐 Static Website Hosting | 🔜 |
-| 🐳 Dockerized Web Application | 🔜 |
-| 🔐 IAM & VPC Hands-on Labs | 🔜 |
-| 🗄️ AWS RDS Migration | 🔜 |
-| ⚙️ CI/CD Pipeline | 🔜 |
-| 🏗️ Terraform Infrastructure | 🔜 |
-
+| Technology | Project | Skills Covered | Documentation | Status |
+|------------|---------|----------------|---------------|:------:|
+| 🐧 Linux | Linux File Management | File System, File Operations, Permissions, Compression | ✅ README • Implementation | ✅ |
+| 🐧 Linux | User & Permission Management Lab | Users, Groups, ACL, Sudo | 🔜 | ⏳ |
+| 🐧 Linux | Build a Server Health Check Script | Bash Scripting, Process Monitoring, Logging | 🔜 | ⏳ |
+| 🐧 Linux | SSH into a Linux Server | SSH, Remote Access, Linux Administration | 🔜 | ⏳ |
+| ☁️ AWS | Secure IAM Setup | IAM, Policies, Roles, MFA | 🔜 | ⏳ |
+| ☁️ AWS | Deploy Apache on EC2 | EC2, Amazon Linux, Apache | 🔜 | ⏳ |
+| ☁️ AWS | Build a Custom VPC | VPC, Subnets, Route Tables, IGW | 🔜 | ⏳ |
+| ☁️ AWS | S3 Static Website + CloudWatch | S3, Static Hosting, Monitoring | 🔜 | ⏳ |
+| 🐳 Docker | Install Docker & Run First Container | Images, Containers | 🔜 | ⏳ |
+| 🐳 Docker | Dockerize a Web Application | Dockerfile, Containerization | 🔜 | ⏳ |
+| 🏗️ Terraform | Build AWS Infrastructure with Terraform | IaC, AWS Provisioning | 🔜 | ⏳ |
+| 🚀 CI/CD | CI/CD Pipeline with GitHub Actions | Automation, Continuous Integration | 🔜 | ⏳ |
 ---
 
-# 📖 Daily Progress
-
-Every day includes:
-
-- 📚 Topic Covered
-- 💻 Commands Practiced
-- ☁️ AWS Services Used
-- 📸 Screenshots
-- 📝 Notes
-- 💡 Key Takeaways
-- 🔗 LinkedIn Post
----
 # 📂 Repository Structure
 
 ```text
@@ -193,104 +185,26 @@ Every day includes:
 │
 ├── README.md
 │
-├── assets/
-│   ├── banner.png
-│   ├── architecture-diagrams/
-│   ├── aws-console-screenshots/
-│   ├── terminal-screenshots/
-│   ├── project-images/
-│   └── certificates/
-│
 ├── notes/
-│   │
-│   ├── linux/
-│   │   ├── linux-basics.md
-│   │   ├── file-system.md
-│   │   ├── users-and-groups.md
-│   │   ├── file-permissions-and-acl.md
-│   │   ├── process-management.md
-│   │   ├── package-management.md
-│   │   ├── shell-scripting.md
-│   │   ├── cron-jobs.md
-│   │   ├── networking.md
-│   │   └── lvm-storage.md
-│   │
-│   ├── aws/
-│   │   ├── iam.md
-│   │   ├── ec2.md
-│   │   ├── vpc.md
-│   │   ├── security-groups.md
-│   │   ├── route-tables.md
-│   │   ├── internet-gateway.md
-│   │   ├── nat-gateway.md
-│   │   ├── s3.md
-│   │   ├── rds.md
-│   │   ├── route53.md
-│   │   ├── load-balancer.md
-│   │   ├── auto-scaling.md
-│   │   └── cloudwatch.md
-│   │
-│   ├── docker/
-│   │   ├── docker-basics.md
-│   │   ├── images-and-containers.md
-│   │   ├── dockerfile.md
-│   │   ├── docker-compose.md
-│   │   ├── volumes.md
-│   │   └── networking.md
-│   │
-│   ├── terraform/
-│   │   ├── terraform-basics.md
-│   │   ├── providers.md
-│   │   ├── variables.md
-│   │   ├── state-management.md
-│   │   └── modules.md
-│   │
-│   ├── kubernetes/
-│   │   ├── kubernetes-basics.md
-│   │   ├── pods.md
-│   │   ├── deployments.md
-│   │   ├── services.md
-│   │   └── ingress.md
-│   │
-│   └── devops/
-│       ├── git.md
-│       ├── github.md
-│       ├── github-actions.md
-│       ├── cicd.md
-│       ├── jenkins.md
-│       └── monitoring.md
+│   │── README.md
+│   └── linux/
+│       └── file-management.md
 │
 ├── projects/
+│   │── README.md
 │   │
-│   ├── linux-system-administration/
-│   ├── aws-s3-static-website/
-│   ├── aws-ec2-web-server/
-│   ├── aws-vpc-network-lab/
-│   ├── aws-iam-security-lab/
-│   ├── aws-rds-migration/
-│   ├── dockerized-react-application/
-│   ├── github-actions-cicd-pipeline/
-│   ├── terraform-infrastructure/
-│   ├── aws-three-tier-architecture/
-│   ├── kubernetes-application-deployment/
-│   └── monitoring-with-cloudwatch/
-│
-├── daily-progress/
-│   ├── day-01-linux-fundamentals.md
-│   ├── day-02-linux-architecture.md
-│   ├── day-03-file-permissions.md
-│   ├── day-04-user-group-management.md
-│   ├── day-05-shell-scripting.md
-│   └── ...
+│   └── linux-system-administration/
+│       └── linux-file-management/
+│           ├── README.md
+│           ├── implementation.md
+│           └── screenshots/
 │
 └── resources/
+    ├── README.md
     ├── linux-command-cheatsheet.md
-    ├── aws-cli-cheatsheet.md
-    ├── docker-cheatsheet.md
     ├── interview-questions.md
-    ├── useful-links.md
-    ├── certification-notes.md
-    └── learning-roadmap.md
+    ├── learning-roadmap.md
+    └── useful-links.md
 ```
 ---
 
