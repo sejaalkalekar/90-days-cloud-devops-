@@ -2012,16 +2012,6 @@ to archive and compress in one step.
 | `gzip` | Compress files |
 
 ---
-## 🔗 Related Resources
-
-| Resource | Link |
-|----------|------|
-| 📅 Daily Progress | [Day 06 - Linux File Management](../../daily-progress/month-01/day-06-linux-file-management.md) |
-| 🚀 Project | [Linux File Management Challenge](../../projects/linux-system-administration/linux-file-management-challenge/README.md) |
-| 📖 Cheat Sheet | [Linux Command Cheat Sheet](../../resources/linux-command-cheatsheet.md) |
-| 💼 Interview Notes | [Linux Interview Notes](../../resources/linux-interview-notes.md) |
-
----
 
 # 📌 Key Takeaways
 
