@@ -24,16 +24,18 @@ Each project includes:
 ```
 projects/
 │
-├── project-01-linux-server-setup/
-├── project-02-host-static-website-on-ec2/
-├── project-03-amazon-s3-static-website/
-├── project-04-vpc-networking/
-├── project-05-rds-database/
-├── project-06-load-balancer/
-├── project-07-auto-scaling/
-├── project-08-terraform/
-├── project-09-docker/
-├── project-10-kubernetes/
+├── project-01-linux-file-management/
+├── project-02-user-&-permission-management-lab/
+├── project-03-build-a-server-health-check-script/
+├── project-04-SSH-into-a-Linux-Server-&-Document-the-Setup/
+├── project-05-secure-IAM-setup/
+├── project-06-deploy-apache-on-EC2/
+├── project-07-build-a-custom-VPC/
+├── project-08-S3-static-website-+-cloudWatch/
+├── project-09-install-docker-&-run-first-container/
+├── project-10-dockerize-a-web-app/
+├── project-11-build-AWS-infrastructure-with-terraform/
+├── project-12-CI/CD-pipeline-demo/
 └── ...
 ```
 

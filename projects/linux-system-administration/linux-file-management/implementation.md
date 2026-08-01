@@ -394,4 +394,4 @@ You have successfully completed a Linux File Management challenge by:
 
 | Resource | Link |
 |----------|------|
-| 📚 Notes | [Linux File Management] (https://github.com/sejaalkalekar/90-days-cloud-devops-/blob/main/notes/linux/file-management.md) |
+| 📚 Notes |(https://github.com/sejaalkalekar/90-days-cloud-devops-/blob/main/notes/linux/file-management.md) |
