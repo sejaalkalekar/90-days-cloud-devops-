@@ -162,20 +162,24 @@ The goal isn't just to complete 90 days—it's to build practical skills, create
 
 # 🚀 Featured Projects
 
-| Technology | Project | Skills Covered | Documentation | Status |
-|------------|---------|----------------|---------------|:------:|
-| 🐧 Linux | Linux File Management | File System, File Operations, Permissions, Compression | ✅ README • Implementation | ✅ |
-| 🐧 Linux | User & Permission Management Lab | Users, Groups, ACL, Sudo | 🔜 | ⏳ |
-| 🐧 Linux | Build a Server Health Check Script | Bash Scripting, Process Monitoring, Logging | 🔜 | ⏳ |
-| 🐧 Linux | SSH into a Linux Server | SSH, Remote Access, Linux Administration | 🔜 | ⏳ |
-| ☁️ AWS | Secure IAM Setup | IAM, Policies, Roles, MFA | 🔜 | ⏳ |
-| ☁️ AWS | Deploy Apache on EC2 | EC2, Amazon Linux, Apache | 🔜 | ⏳ |
-| ☁️ AWS | Build a Custom VPC | VPC, Subnets, Route Tables, IGW | 🔜 | ⏳ |
-| ☁️ AWS | S3 Static Website + CloudWatch | S3, Static Hosting, Monitoring | 🔜 | ⏳ |
-| 🐳 Docker | Install Docker & Run First Container | Images, Containers | 🔜 | ⏳ |
-| 🐳 Docker | Dockerize a Web Application | Dockerfile, Containerization | 🔜 | ⏳ |
-| 🏗️ Terraform | Build AWS Infrastructure with Terraform | IaC, AWS Provisioning | 🔜 | ⏳ |
-| 🚀 CI/CD | CI/CD Pipeline with GitHub Actions | Automation, Continuous Integration | 🔜 | ⏳ |
+# 🗺️ Project Roadmap
+
+| Technology | Project | Status |
+|------------|---------|:------:|
+| 🐧 Linux | Linux File Management | ✅ Completed |
+| 🐧 Linux | User & Permission Management Lab | ⏳ Planned |
+| 🐧 Linux | Build a Server Health Check Script | ⏳ Planned |
+| 🐧 Linux | SSH into a Linux Server & Document the Setup | ⏳ Planned |
+| ☁️ AWS | Secure IAM Setup | ⏳ Planned |
+| ☁️ AWS | Deploy Apache on EC2 | ⏳ Planned |
+| ☁️ AWS | Build a Custom VPC | ⏳ Planned |
+| ☁️ AWS | S3 Static Website + CloudWatch | ⏳ Planned |
+| 🐳 Docker | Install Docker & Run First Container | ⏳ Planned |
+| 🐳 Docker | Dockerize a Web Application | ⏳ Planned |
+| 🏗️ Terraform | Build AWS Infrastructure with Terraform | ⏳ Planned |
+| 🚀 CI/CD | CI/CD Pipeline with GitHub Actions | ⏳ Planned |
+
+> **Legend:** ✅ Completed &nbsp;&nbsp; 🚧 In Progress &nbsp;&nbsp; ⏳ Planned
 ---
 
 # 📂 Repository Structure
