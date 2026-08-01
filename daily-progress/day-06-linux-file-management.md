@@ -95,7 +95,6 @@ During this project, I completed the following tasks:
 
 ---
 
-# 📚 Related Notes
 ## 🔗 Related Resources
 
 | Resource | Link |
@@ -104,12 +103,6 @@ During this project, I completed the following tasks:
 | 🚀 Project | [Linux File Management Challenge](../../projects/linux-system-administration/linux-file-management-challenge/README.md) |
 | 📖 Cheat Sheet | [Linux Command Cheat Sheet](../../resources/linux-command-cheatsheet.md) |
 ---
-
-## 🔗 Related Resources
-
-[![Notes](https://img.shields.io/badge/📚-Notes-blue?style=for-the-badge)](../../notes/linux/file-management.md)
-[![Project](https://img.shields.io/badge/🚀-Project-success?style=for-the-badge)](../../projects/linux-system-administration/linux-file-management-challenge/README.md)
-[![Cheat Sheet](https://img.shields.io/badge/📖-Cheat_Sheet-orange?style=for-the-badge)](../../resources/linux-command-cheatsheet.md)
 
 # 🎯 Next Step
 
