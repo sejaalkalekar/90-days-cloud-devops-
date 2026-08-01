@@ -162,8 +162,6 @@ The goal isn't just to complete 90 days—it's to build practical skills, create
 
 # 🚀 Featured Projects
 
-# 🗺️ Project Roadmap
-
 | Technology | Project | Status |
 |------------|---------|:------:|
 | 🐧 Linux | Linux File Management | ✅ Completed |
