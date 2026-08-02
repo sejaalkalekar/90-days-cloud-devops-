@@ -1740,11 +1740,3 @@ Displays all commands the current user is allowed to execute.
 - ✔ Verify file ownership before changing permissions.
 
 ---
-
-## 🔗 Related Resources
-
-| Resource | Link |
-|----------|------|
-| 🚀 Project | [User & Group Management Lab](../../projects/linux-system-administration/user-group-management/README.md) |
-| 📖 Cheat Sheet | [Linux Command Cheat Sheet](../../resources/linux-command-cheatsheet.md) |
-| 📚 Interview Questions | [Linux Interview Questions](../../resources/interview-questions.md) |
