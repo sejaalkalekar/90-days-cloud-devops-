@@ -1,4 +1,4 @@
-# IP Addressing & Subnetting Basics
+# IP Addressing & Subnetting
 
 ## 1. What is an IP Address?
 
