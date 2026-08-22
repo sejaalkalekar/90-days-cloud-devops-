@@ -1,0 +1,76 @@
+========================================
+SERVER HEALTH CHECK
+===================
+
+Date & Time    : Sat Aug 22 23:30:00 IST 2026
+Hostname       : linux-server
+Operating System: Ubuntu Linux
+Kernel Version : 6.8.0-xx-generic
+
+---
+
+## SYSTEM INFORMATION
+
+Uptime         : up 2 days, 5 hours
+Load Average   : 0.32 0.28 0.25
+
+---
+
+## CPU USAGE
+
+CPU Usage      : 18%
+
+Status         : HEALTHY
+
+---
+
+## MEMORY USAGE
+
+Total Memory   : 3.8 GiB
+Used Memory    : 1.5 GiB
+Free Memory    : 1.2 GiB
+Available      : 2.3 GiB
+Memory Usage   : 39%
+
+Status         : HEALTHY
+
+---
+
+## DISK USAGE
+
+Filesystem     : /
+Total Size     : 20G
+Used Space     : 7.2G
+Available      : 12G
+Disk Usage     : 38%
+
+Status         : HEALTHY
+
+---
+
+## RUNNING PROCESSES
+
+Total Processes: 156
+
+## Top Processes:
+
+PID     CPU%    MEM%    COMMAND
+1024    8.2     2.1     apache2
+1456    5.4     1.8     sshd
+1789    3.1     1.2     systemd
+-------------------------------
+
+---
+
+## OVERALL SERVER STATUS
+
+CPU Status     : HEALTHY
+Memory Status  : HEALTHY
+Disk Status    : HEALTHY
+System Load    : NORMAL
+
+========================================
+SERVER STATUS: HEALTHY
+======================
+
+Health Check Completed Successfully.
