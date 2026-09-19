@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitmas Fitness Studio | Blog</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/fevicon.png">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- fa icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+    <!-- css style -->
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <script>
+        fetch("includes/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            })
+            .catch(err => console.log("Error loading header:", err));
+    </script>
+
+    <section>
+        <div class="blogHeaderSection">
+            <h5 class="title">Our Blogs</h5>
+            <h6 class="subTitle">HOME / BLOGPAGE</h6>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                    <div>
+                        <img src="./images/blogImg1.png" alt="img" width="100%">
+                        <div class="blogContainer">
+                            <div class="d-flex gap-3 pt-3">
+                                <span class="d-flex align-items-center"> <i class="fa fa-clock-o" style="font-size:18px;color:rgb(0, 0, 0)"></i>&nbsp; 25 JUNE 2023</span> 
+                                <span class="d-flex align-items-center"> <i class="material-icons" style="font-size:25px;color:rgb(0, 0, 0)"></i>&nbsp; POST BY:ADMIN</span>
+                            </div>
+                            <h2>Most Traditional Gym Fitness Blog 2023</h2>
+                            <p class="pt-3">Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
+                            <a href="" style="text-decoration: none; color: black;"><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <img src="./images/blogImg2.png" alt="img" width="100%">
+                        <div class="blogContainer">
+                            <div class="d-flex gap-3 pt-3">
+                                <span class="d-flex align-items-center"> <i class="fa fa-clock-o" style="font-size:18px;color:rgb(0, 0, 0)"></i>&nbsp; 25 JUNE 2023</span> 
+                                <span class="d-flex align-items-center"> <i class="material-icons" style="font-size:25px;color:rgb(0, 0, 0)"></i>&nbsp; POST BY:ADMIN</span>
+                            </div>
+                            <h2>Strategies for Maximizing Your Workouts</h2>
+                            <p class="pt-3">Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
+                            <a href="" style="text-decoration: none; color: black;"><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <img src="./images/blogImg3.png" alt="img" width="100%">
+                        <div class="blogContainer">
+                            <div class="d-flex gap-3 pt-3">
+                                <span class="d-flex align-items-center"> <i class="fa fa-clock-o" style="font-size:18px;color:rgb(0, 0, 0)"></i>&nbsp; 25 JUNE 2023</span> 
+                                <span class="d-flex align-items-center"> <i class="material-icons" style="font-size:25px;color:rgb(0, 0, 0)"></i>&nbsp; POST BY:ADMIN</span>
+                            </div>
+                            <h2>Nutrition Tips and Advice for Gyn Goers</h2>
+                            <p class="pt-3">Passion is the driving force behind our gym team members. They have a genuine love for fitness and a deep-rooted desire to inspire and motivate others. Their contagious enthusiasm creates a positive and energizing atmosphere within our gym</p>
+                            <a href="" style="text-decoration: none; color: black;"><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="blogContainer">
+                        <div class="search-wrapper">
+                            <input type="search" placeholder="Enter Keyword" class="searchInput">
+                            <button class="searchBtn">
+                                <i class="fa fa-search p-0 mb-0" style="color: white;"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="blogContainer mt-5">
+                        <h5 style="font-weight: 700; font-size: 25px; padding-bottom: 8%;">Recent Post</h5>
+                        <div class="d-flex gap-3 align-items-start">
+                            <img src="./images/blogpostImg1.png" alt="img" width="80px" height="75px">
+                            <div>
+                                <h4>Essential Stregies For MAximizing Your</h4>
+                                <p>25 JUN, 2025</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 align-items-start">
+                            <img src="./images/blogpostImg2.png" alt="img" width="80px" height="75px">
+                            <div>
+                                <h4>Functional Trainig into Your Routine...</h4>
+                                <p>25 JUN, 2025</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 align-items-start">
+                            <img src="./images/blogpostImg3.png" alt="img" width="80px" height="75px">
+                            <div>
+                                <h4>Nutrition Tips Advice For Gym Goers</h4>
+                                <p>25 JUN, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blogContainer categories mt-5">
+                        <h5 style="font-weight: 700; font-size: 25px; padding-bottom: 8%;">Categories</h5>
+                        <p>&#8594; Boxing Training</p><hr>
+                        <p>&#8594; Body Building Class</p><hr>
+                        <p>&#8594; Meditation Class</p><hr>
+                        <p>&#8594; Mental Yoga Training</p><hr>
+                        <p>&#8594; CrossFit Body Class</p>
+                    </div>
+
+                    <div class="blogContainer mt-5">
+                        <h5 style="font-weight: 700; font-size: 25px; padding-bottom: 8%;">Project Gallery </h5>
+                        <img src="./images/projectGallary.png" alt="images">
+                    </div>
+
+                    <div class="blogContainer mt-5">
+                        <h5 style="font-weight: 700; font-size: 25px; padding-bottom: 8%;">Popular Tags</h5>
+                        <div class="d-flex gap-3">
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">ADVICE</mark>
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">FIT</mark>
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">AUTHOR</mark>
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">FAMILY</mark>
+                        </div>
+                        <div class="d-flex gap-3 mt-3">
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">FITMAS</mark>
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">HEALTH</mark>
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">FITNESS</mark>
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">GYM</mark>
+                        </div>
+                        <div class="d-flex gap-3 mt-3">
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">JUDGE</mark>
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">SOLUTION</mark>
+                            <mark style="padding:10px; background-color: white; color:gray; font-weight: 600; font-size: 14px;">TRAINING</mark>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div id="footer"></div>
+
+    <script>
+        fetch("includes/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+                console.log(footer);
+            })
+            .catch(err => console.log("Error loading footer:", err));
+    </script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitmas Fitness Studio | Contact</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/fevicon.png">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- fa icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+    <!-- css style -->
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <script>
+        fetch("includes/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            })
+            .catch(err => console.log("Error loading header:", err));
+    </script>
+
+    <section>
+        <div class="ContactHeaderSection">
+            <h5 class="title">Contact Us</h5>
+            <h6 class="subTitle">HOME / CONTACT US</h6>
+        </div>
+    </section>
+    <div style="background-color:aliceblue">            
+        <br><br>
+        <section style="background-color:aliceblue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="d-flex gap-3 contactDiv">
+                            <img src="./images/callus.png" alt="img" width="50px" height="50px">
+                            <div class="contactText">
+                                <p class="mb-0">CALL US 24/7</p>
+                                <a href="tel:5842521453">+584(25)21453</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="d-flex gap-3 contactDiv">
+                            <img src="./images/email.png" alt="img" width="50px" height="50px">
+                            <div class="contactText">
+                                <p class="mb-0">MAKE A QUOTE</p>
+                                <a href="mailto:info@Fitmas.com">info@Fitmas.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="d-flex gap-3 contactDiv">
+                            <img src="./images/location.png" alt="img" width="50px" height="50px">
+                            <div class="contactText">
+                                <p class="mb-0">SERVICE STATION</p>
+                                <a href="https://maps.app.goo.gl/QKRQgKaqGR2dZVLCA" target="_blank">25 Hilton Street</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.317274316764!2d151.74121807479585!3d-29.739529617202546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b98c99f7041ab37%3A0xc24cf2dc71755f6c!2s25%20Hilton%20St%2C%20Glen%20Innes%20NSW%202370%2C%20Australia!5e0!3m2!1sen!2sin!4v1762677694501!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="container">
+                <div class="row" style="background-color: white;">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <img src="./images/contactUSImg.png" alt="img" width="300px" height="500px">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                        <div class="container">
+                            <div class="Headlines py-4 pt-5">
+                                <span>CONTACT US</span>
+                                <h2>Send Us Message</h2>
+                            </div>
+                            <form>
+                                <div class="d-flex gap-5">
+                                    <div class="form-group col-md-4 ">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="text" class="form-control" id="email" name="email" placeholder="Email Address" required>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-9 mt-3">
+                                    <select id="subject" name="subject" class="form-control" >
+                                        <option>Select Subject</option>
+                                        <option>sub2</option>
+                                        <option>sub3</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control mt-4" id="validationTextarea" rows="5" placeholder="Type Your Message" required style="width: 75%;"></textarea>
+                                </div>
+                                <button class="btn clickBtn" type="submit">Send A Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section>
+            <div class="container">
+                <div class="Headlines py-4 pt-5 text-center">
+                    <span>Follow OUR</span>
+                    <h2>Instagram Feed</h2>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row gap-4">
+                    <img src="./images/insta1.png" alt="img">
+                    <img src="./images/insta2.png" alt="img">
+                    <img src="./images/insta3.png" alt="img">
+                    <img src="./images/insta4.png" alt="img">
+                </div>
+                <div class="d-flex flex-column flex-md-row gap-4 mt-3">
+                    <img src="./images/insta5.png" alt="img">
+                    <img src="./images/insta6.png" alt="img">
+                    <img src="./images/insta7.png" alt="img">
+                    <img src="./images/insta8.png" alt="img">
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+        fetch("includes/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+                console.log(footer);
+            })
+            .catch(err => console.log("Error loading footer:", err));
+    </script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

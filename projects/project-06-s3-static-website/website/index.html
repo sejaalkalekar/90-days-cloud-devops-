@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitmas Fitness Studio</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/fevicon.png">
+
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- fa icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+    <!-- css style -->
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <script>
+        fetch("includes/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            })
+            .catch(err => console.log("Error loading header:", err));
+    </script>
+
+    <section>
+        <div class="swiper mySwiper mb-5">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide img1">
+                    <div class="row">
+                        <div class="col-12 col-md-6 MainScrollbarheaderText">
+                            <h6><span style='color:red;'>&#9632;</span> WELCOME TO OUR COMPANY</h6>
+                            <h2>The Best <span>Fitness</span> Studio In Town</h2>
+                            <div style="text-align: left;">
+                                <button class="clickBtn">Make Appointment</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6"></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide img2">
+                    <div class="row">
+                        <div class="col-12 col-md-6 MainScrollbarheaderText">
+                            <h6><span style='color:red;'>&#9632;</span> WELCOME TO OUR COMPANY</h6>
+                            <h2>The Best <span>Fitness</span> Studio In Town</h2>
+                            <div style="text-align: left;">
+                                <button class="clickBtn">Make Appointment</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6"></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide img3">
+                    <div class="row">
+                        <div class="col-12 col-md-6 MainScrollbarheaderText">
+                            <h6><span style='color:red;'>&#9632;</span> WELCOME TO OUR COMPANY</h6>
+                            <h2>The Best <span>Fitness</span> Studio In Town</h2>
+                            <div style="text-align: left;">
+                                <button class="clickBtn">Make Appointment</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+    </section>
+
+
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 box1">
+                    <img src="./images/growth.png" alt="img"  width="100px" height="100px"><br><br>
+                    <span><i class="fa fa-square" style="font-size:15px;color:red"></i>&nbsp; &nbsp;HEALTHIER LIFE</span>
+                    <h2>Achieve Your Goals</h2>
+                    <p>We believe that with the right guidance support, and mindset, you can accomplish anything you set your mind to.</p>
+                    <button>View Class Schedule</button>
+                </div>
+                <div class="col-md-4 box2">
+                    <img src="./images/certificate.png" alt="img" width="100px" height="100px"><br><br>
+                    <span><i class="fa fa-square" style="font-size:15px;color:red"></i>&nbsp; &nbsp; HEALTHIER LIFE</span>
+                    <h2>Best Institute Certificate</h2>
+                    <p>We believe that with the right guidance support, and mindset, you can accomplish anything you set your mind to.</p>
+                    <button>View Class Schedule</button>
+                </div>
+                <div class="col-md-4 box3">
+                    <img src="./images/meeting.png" alt="img" width="100px" height="100px"><br><br>
+                    <span><i class="fa fa-square" style="font-size:15px;color:red"></i>&nbsp; &nbsp; HEALTHIER LIFE</span>
+                    <h2>Train Day and Night</h2>
+                    <p>We believe that with the right guidance support, and mindset, you can accomplish anything you set your mind to.</p>
+                    <button>View Class Schedule</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/abtUsImg.png" alt="about us" width="100%">
+                </div>
+                <div class="col-md-6 aboutus-text mt-5">
+                    <h6 class="aboutus">MORE ABOUT US</h6>
+                    <h2>Unlock Your Full Potential Achieve Your Goals</h2>
+                    <p>welcome to fitmas your ultimate destination for achieving your fitness goals. We understand the importance of leading a healthy lifestyle and provide a top-notch fitness facility to support you in your fitness journey.</p>                   
+                    <span>Our Mission</span>&nbsp; &nbsp; <span>Our Vision</span>&nbsp; &nbsp; <span>Our Goal</span>
+                    <hr>
+                    <div class="d-flex">
+                        <img src="./images/abtUslogo.png" alt="img" width="70px" height="70px" style="margin-right: 30px;">
+                        <p>Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical avtivity.</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex flex-column flex-md-row align-items-start gap-3">
+                        <button class="clickBtn">Make Appointment</button>
+                        <div class="d-flex align-items-center">
+                            <img src="./images/callicon.png" alt="icon" width="60px" height="65px" style="margin-right: 10px;">
+                            <div>
+                                <p class="mb-0 color-black">Need Help?</p>
+                                <a href="tel:25825692582" style="text-decoration: none; color:black; font-weight: 700;">(+258)25692582</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="ourService">
+            <div class="container pt-5">
+                <span>OUR FEATURES</span>
+                <h2>Services We're Offering</h2>
+                <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+                    <div class="d-flex justify-content-center align-items-center serviceBox gap-4">
+                        <img src="./images/servicelogo1.png" alt="img" width="50px" height="50px">
+                        <div>
+                            <h5>Rows of Cardio</h5>
+                            <p>Lacinia montes est odio tpor volutpat rhoncus quisque sagittis</p>
+                            <a href="">Read More &#8594;</a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center serviceBox gap-4">
+                        <img src="./images/servicelogo2.png" alt="img" width="50px" height="40px">
+                        <div>
+                            <h5>Heart Pumping</h5>
+                            <p>Lacinia montes est odio tpor volutpat rhoncus quisque sagittis</p>
+                            <a href="">Read More &#8594;</a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center serviceBox gap-4">
+                        <img src="./images/servicelogo3.png" alt="img" width="50px" height="0px">
+                        <div>
+                            <h5>Strength Training</h5>
+                            <p>Lacinia montes est odio tpor volutpat rhoncus quisque sagittis</p>
+                            <a href="">Read More &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mt-5">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="./images/serviceImg.png" alt="img" width="100%" >
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-3 serviceBoxText">
+                        <span>Why Choose Us?</span>
+                        <h2>Why Choose Us?</h2>
+                        <p>Sed ut perspiciatis unde omnis natus voluptatem accusantium dolore mque laudantium aperiam inventore veritatis</p>
+
+                        <!-- Service Box 1 -->
+                        <div class="serviceBox">
+                            <div class="d-flex justify-content-between" data-bs-toggle="collapse" data-bs-target="#service1">
+                                <h5>What are your gym's operating hours?</h5>
+                                <span class="serviceBoxArrow2">&#8594;</span>
+                            </div>
+                            <div id="service1" class="collapse">
+                                <p>
+                                    Our standard membership provides access to our gym facilities during regular operating hours. 
+                                    This option is ideal for individuals who prefer independent workouts and want to make use of our state.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service Box 2 -->
+                        <div class="serviceBox">
+                            <div class="d-flex justify-content-between" data-bs-toggle="collapse" data-bs-target="#service2">
+                                <h5>What amenities and facilities does your gym offer?</h5>
+                                <span class="serviceBoxArrow2">&#8594;</span>
+                            </div>
+                            <div id="service2" class="collapse">
+                                <p>
+                                    Your facility information goes here…
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Service Box 3 -->
+                        <div class="serviceBox">
+                            <div class="d-flex justify-content-between" data-bs-toggle="collapse" data-bs-target="#service3">
+                                <h5>Do You provide personal training services?</h5>
+                                <span class="serviceBoxArrow2">&#8594;</span>
+                            </div>
+                            <div id="service3" class="collapse">
+                                <p>
+                                    Your personal training details go here…
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="Headlines text-center py-5">
+                <span>Why Choose Us?</span>
+                <h2>Service We Provide</h2>
+            </div>
+                <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+                <div class="serviceWeProvideBox">
+                    <img src="./images/serviceLog4.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Power Lifting</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href=""><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+                <div class="serviceWeProvideBox">
+                    <img src="./images/servicelogo5.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Body Building</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href=""><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+                <div class="serviceWeProvideBox">
+                    <img src="./images/servicelogo6.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Gym Fitness Class</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href=""><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="counterBg">
+            <div class="container">
+                <div class="d-block d-md-flex justify-content-between counters">
+                    <div class="text-center counterInfo">
+                        <div class="d-flex gap-3">
+                            <img src="./images/counterImg1.png" alt="img" width="90px" height="90px">
+                            <div>
+                                <h2><span class="counter" data-target="48">0</span>+</h2>
+                                <p>JOBS COMPLETED</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center counterInfo">
+                        <div class="d-flex gap-3">
+                            <img src="./images/counterImg2.png" alt="img" width="90px" height="90px">
+                            <div>
+                                <h2><span class="counter" data-target="325">0</span>+</h2>
+                                <p>MEDIA ACTIVITIES</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center counterInfo">
+                        <div class="d-flex gap-3">
+                            <img src="./images/counterImg3.png" alt="img" width="90px" height="90px">
+                            <div>
+                                <h2><span class="counter" data-target="598">0</span>+</h2>
+                                <p>SKILLED EXPERTS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center counterInfo">
+                        <div class="d-flex gap-3">
+                            <img src="./images/counterImg4.png" alt="img" width="90px" height="90px">
+                            <div>
+                                <h2><span class="counter" data-target="36">0</span>+</h2>
+                                <p>HAPPY CLIENTS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <script>
+                function animateCounter(element, target, duration = 2000) {
+                    const start = 0;
+                    const increment = target / (duration / 16);
+                    let current = start;
+
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= target) {
+                            element.textContent = target;
+                            clearInterval(timer);
+                        } else {
+                            element.textContent = Math.floor(current);
+                        }
+                    }, 16);
+                }
+
+                // Intersection Observer to trigger animation when visible
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const counters = document.querySelectorAll('.counter');
+                            counters.forEach(counter => {
+                                const target = parseInt(counter.getAttribute('data-target'));
+                                animateCounter(counter, target);
+                            });
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.5 });
+
+                observer.observe(document.querySelector('.counters'));
+            </script>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="Headlines text-center py-5">
+                <span>OUR TRAINER</span>
+                <h2>Meet Our Amazing Team</h2>
+            </div>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+                <div class="serviceWeProvideBox text-center">
+                    <img src="./images/mike.png" alt="img"  width="100%"><br><br>
+                    <h4>Mike Johnson</h4>
+                    <span>CEO/Founder</span>
+                </div>
+                <div class="serviceWeProvideBox text-center">
+                    <img src="./images/amelia.png" alt="img"  width="100%"><br><br>
+                    <h4>Amelia Harper</h4>
+                    <span>CEO/Founder</span>
+                </div>
+                <div class="serviceWeProvideBox text-center">
+                    <img src="./images/oliver.png" alt="img" width="100%"><br><br>
+                    <h4>Oliver Samuel</h4>
+                    <span>CEO/Founder</span>
+                </div>
+                <div class="serviceWeProvideBox text-center">
+                    <img src="./images/george.png" alt="img" width="100%"><br><br>
+                    <h4>George Thomas</h4>
+                    <span>CEO/Founder</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="d-flex flex-column flex-md-row py-5">
+            <div>
+                <img src="./images/testnimonialBg.png" alt="img" class="testnimonialImg">
+            </div>
+            <div class="container">
+                <div class="innertestimonialTextBG ">
+                    <div class="Headlines textimonialTeax text-center py-5">
+                        <span>OUR TRAINER</span>
+                        <h2>Trusted Testimonials</h2>
+                        <img src="./images/testimonialPicimg.png" alt="img" width="150px" height="150px" class="imgLog">
+                        <p>"I have been a member of Fitmas for over a year now, and it had been a game-changer for my fitness journey. The gym has a fantastic range of equipment that caters to all my workout need..."</p>
+                        <span style="color: red; background: none; border-radius: 0px; font-size: 30px; box-shadow: none;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row testimonialNamingBox justify-content-center gap-3 pb-5">
+                        <div class="text-center">
+                            <h6>Andrew Daniel</h6>
+                            <span>GYM STUDENT</span>
+                        </div>
+                        <div class="text-center" style="background-color: red;">
+                            <h6>Mike Harison</h6>
+                            <span style="color: white;">GYM STUDENT</span>
+                        </div>
+                        <div class="text-center">
+                            <h6>William Henry</h6>
+                            <span>GYM STUDENT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>        
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="pricingBG pb-5">
+                        <img src="./images/pricingplan1.png" alt="img" width="100px" height="90px">
+                        <h2>Basic Membership</h2>
+                        <div class="d-flex pricingDiv">
+                            <span>$</span><h3>19</h3>
+                            <span style="padding-top: 24px;">/month</span>
+                                                
+                        </div>
+                        <hr>
+                        <div>
+                            <p>This Category typically offers access to the gym's facilities and equipment</p>
+                            <ul style="list-style: none;">
+                                <li><i class="fa fa-check-circle"></i> 12 Trainings</li>
+                                <li><i class="fa fa-check-circle"></i> Free shower & lockers</li>
+                                <li><i class="fa fa-check-circle"></i> Personal yoga mat</li>
+                                <li><i class="fa fa-check-circle"></i> Free parking</li>
+                            </ul>
+                        </div>
+                        <button class="clickBtn">Choose This Plan</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="pricingBG2 pb-5">
+                        <img src="./images/pricingplan2.png" alt="img" width="100px" height="90px">
+                        <h2>Standard Membership</h2>
+                        <div class="d-flex pricingDiv">
+                            <span>$</span><h3>39</h3>
+                            <span style="padding-top: 24px;">/month</span>
+                                                
+                        </div>
+                        <hr>
+                        <div>
+                            <p>This Category typically offers access to the gym's facilities and equipment</p>
+                            <ul style="list-style: none;">
+                                <li><i class="fa fa-check-circle"></i> 12 Trainings</li>
+                                <li><i class="fa fa-check-circle"></i> Free shower & lockers</li>
+                                <li><i class="fa fa-check-circle"></i> Personal yoga mat</li>
+                                <li><i class="fa fa-check-circle"></i> Free parking</li>
+                            </ul>
+                        </div>
+                        <button class="clickBtn">Choose This Plan</button>
+                    </div>
+                </div>                 
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="pricingBG pb-5">
+                        <img src="./images/pricingplan3.png" alt="img" width="100px" height="90px">
+                        <h2>Ultimate Membership</h2>
+                        <div class="d-flex pricingDiv">
+                            <span>$</span><h3>69</h3>
+                            <span style="padding-top: 24px;">/month</span>
+                                                
+                        </div>
+                        <hr>
+                        <div>
+                            <p>This Category typically offers access to the gym's facilities and equipment</p>
+                            <ul style="list-style: none;">
+                                <li><i class="fa fa-check-circle"></i> 12 Trainings</li>
+                                <li><i class="fa fa-check-circle"></i> Free shower & lockers</li>
+                                <li><i class="fa fa-check-circle"></i> Personal yoga mat</li>
+                                <li><i class="fa fa-check-circle"></i> Free parking</li>
+                            </ul>
+                        </div>
+                        <button class="clickBtn">Choose This Plan</button>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="Headlines py-5">
+                        <span>FITMAS GOAL</span>
+                        <h2>Unclock Your Full Potential, Achieve Your Fitness Goals</h2><br>
+                        <div class="d-flex gap-3">
+                            <img src="./images/fitnesslogo1.png" alt="img" width="90px" height="100px">
+                            <div>
+                                <h5>Free Fitness Training</h5>
+                                <p>Pedal your way to fitness in our specialized indoor cycling studio. Equipped with stationary bikes...</p>
+                            </div>
+                        </div><br>
+                        <div class="d-flex gap-3">
+                            <img src="./images/fitnesslogo2.png" alt="img"  width="90px" height="100px">
+                            <div>
+                                <h5>Cardio and Strength</h5>
+                                <p>Pedal your way to fitness in our specialized indoor cycling studio. Equipped with stationary bikes...</p>
+                            </div>
+                        </div><br> 
+                        <button class="clickBtn2">Read Details</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <img src="./images/fitmassgoalImg.png" alt="img" class="fitnessGoalImg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="blogPost">
+            <div class="container">
+                <div class="Headlines text-center py-5">
+                    <span>BLOG POSTS</span>
+                    <h2>Read Our Latest Articles</h2>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between gap-3">
+                    <div class="blogPostBg">
+                        <img src="./images/blogpost1.png" alt="img" width="100%" height="250px">
+                        <div class="d-flex gap-3 justify-content-center">
+                            <span class="d-flex align-items-center"> <i class="fa fa-calendar-o" style="font-size:18px;color:red"></i>&nbsp; 15 DEC 2023</span> 
+                            <span class="d-flex align-items-center"> <i class="material-icons" style="font-size:25px;color:red">&#xe7fd;</i>&nbsp; BY ANDREW</span>
+                        </div>
+                        <h5>Offer discounted options for students seniors</h5>
+                        <p>We understand the importance of fitness for the whole family. Our family option allows multiple family...</p>
+                    </div>
+               
+                    <div class="blogPostBg">
+                        <img src="./images/blogpost2.png" alt="img" width="100%" height="250px">
+                        <div class="d-flex gap-3 justify-content-center">
+                            <span class="d-flex align-items-center"> <i class="fa fa-calendar-o" style="font-size:18px;color:red"></i>&nbsp; 15 DEC 2023</span> 
+                            <span class="d-flex align-items-center"> <i class="material-icons" style="font-size:25px;color:red">&#xe7fd;</i>&nbsp; BY ANDREW</span>
+                        </div>
+                        <h5>Nutrition Tips and Advice for Gym Goers</h5>
+                        <p>These specialized memberships are designed to make fitness accessible and affordable for these specific...</p>
+                    </div>
+               
+                    <div class="blogPostBg">
+                        <img src="./images/blogpost3.png" alt="img" width="100%" height="250px">
+                        <div class="d-flex gap-3 justify-content-center">
+                            <span class="d-flex align-items-center"> <i class="fa fa-calendar-o" style="font-size:18px;color:red"></i>&nbsp; 15 DEC 2023</span> 
+                            <span class="d-flex align-items-center"> <i class="material-icons" style="font-size:25px;color:red">&#xe7fd;</i>&nbsp; BY ANDREW</span>
+                        </div>
+                        <h5>Uncover Your True Potential at Fitmas</h5>
+                        <p>If you're visiting the area or want to bring a friend along for a workout we offer day passes and guest passes...</p>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script>
+        fetch("includes/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+                console.log(footer);
+            })
+            .catch(err => console.log("Error loading footer:", err));
+    </script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

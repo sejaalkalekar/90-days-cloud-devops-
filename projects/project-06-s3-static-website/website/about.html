@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitmas Fitness Studio | About us</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/fevicon.png">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- fa icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+    <!-- css style -->
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <script>
+        fetch("includes/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            })
+            .catch(err => console.log("Error loading header:", err));
+    </script>
+
+    <section>
+        <div class="abtHeaderSection">
+            <h5 class="title">About Us</h5>
+            <h6 class="subTitle">HOME / ABOUT US</h6>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 aboutus-text mt-5">
+                    <h6 class="aboutus">MORE ABOUT US</h6>
+                    <h2>Unlock Your Full Potential Achieve Your Goals</h2>
+                    <p>welcome to fitmas your ultimate destination for achieving your fitness goals. We understand the importance of leading a healthy lifestyle and provide a top-notch fitness facility to support you in your fitness journey.</p>                   
+                    <span>Our Mission</span>&nbsp; &nbsp; <span>Our Vision</span>&nbsp; &nbsp; <span>Our Goal</span>
+                    <hr>
+                    <div class="d-flex">
+                        <img src="./images/abtUslogo.png" alt="img" width="70px" height="70px" style="margin-right: 30px;">
+                        <p>Gyms play a vital role in promoting an active and healthy lifestyle. They provide a supportive and motivating environment for individuals to engage in regular physical avtivity.</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex flex-column flex-md-row align-items-start gap-3">
+                        <button class="clickBtn">Make Appointment</button>
+                        <div class="d-flex align-items-center">
+                            <img src="./images/callicon.png" alt="icon" width="60px" height="65px" style="margin-right: 10px;">
+                            <div>
+                                <p class="mb-0 color-black">Need Help?</p>
+                                <a href="tel:25825692582" style="text-decoration: none; color:black; font-weight: 700;">(+258)25692582</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/abtUsImg.png" alt="about us" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="Headlines text-center py-5">
+                <span>OUR SERVICES</span>
+                <h2>Service We Provide</h2>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between pb-5 gap-3">
+                <div class="serviceWeProvideBox">
+                    <img src="./images/serviceLog4.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Power Lifting</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href=""><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+                <div class="serviceWeProvideBox">
+                    <img src="./images/servicelogo5.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Body Building</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href=""><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+                <div class="serviceWeProvideBox">
+                    <img src="./images/servicelogo6.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Gym Fitness Class</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href=""><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="consultationBG">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="consultationText">
+                            <h6>MAKE AN APPOINTMENT</h6>
+                            <h2>Get a Free Consultancy <br> Right Now Here!</h2>
+                            <div class="d-flex align-items-center flex-column flex-md-row justify-content-betweengap-3 mt-4">
+                                <button class="clickBtn appoinmentBtn">Make Appointment</button>
+                                <div class="d-flex align-items-center">
+                                    <img src="./images/abtPhnIcon.png" alt="icon" width="60px" height="60px" style="margin-right: 10px;">
+                                    <div>
+                                        <p class="mb-0" style="color: white;">Need Help?</p>
+                                        <a href="tel:25825692582" style="text-decoration: none; color:rgb(255, 255, 255); font-weight: 700;">(+258)25692582</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="Headlines text-center py-5">
+                <span>OUR TRAINER</span>
+                <h2>Meet Our Amazing Team</h2>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between pb-5 gap-3">
+                <div class="serviceWeProvideBox text-center">
+                    <img src="./images/mike.png" alt="img"  width="100%"><br><br>
+                    <h4>Mike Johnson</h4>
+                    <span>CEO/Founder</span>
+                </div>
+                <div class="serviceWeProvideBox text-center">
+                    <img src="./images/amelia.png" alt="img"  width="100%"><br><br>
+                    <h4>Amelia Harper</h4>
+                    <span>CEO/Founder</span>
+                </div>
+                <div class="serviceWeProvideBox text-center">
+                    <img src="./images/oliver.png" alt="img" width="100%"><br><br>
+                    <h4>Oliver Samuel</h4>
+                    <span>CEO/Founder</span>
+                </div>
+                <div class="serviceWeProvideBox text-center">
+                    <img src="./images/george.png" alt="img" width="100%"><br><br>
+                    <h4>George Thomas</h4>
+                    <span>CEO/Founder</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div id="footer"></div>
+
+    <script>
+        fetch("includes/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+                console.log(footer);
+            })
+            .catch(err => console.log("Error loading footer:", err));
+    </script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

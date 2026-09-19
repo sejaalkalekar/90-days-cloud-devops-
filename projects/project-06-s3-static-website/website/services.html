@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitmas Fitness Studio | Services</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/fevicon.png">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- fa icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+    <!-- css style -->
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <script>
+        fetch("includes/header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            })
+            .catch(err => console.log("Error loading header:", err));
+    </script>
+
+    <section>
+        <div class="servicesHeaderSection mb-5">
+            <h5 class="title">Our Services</h5>
+            <h6 class="subTitle">HOME / SERVICE</h6>
+        </div>
+    </section>
+    <br><br>
+    <section>
+        <div class="container mt-5">
+            <div class="d-flex flex-column flex-md-row justify-content-between pb-5 gap-3">
+                <div class="serviceWeProvideBox">
+                    <img src="./images/servicelogo6.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Gym Fitness Class</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href="#"><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+                <div class="serviceWeProvideBox">
+                    <img src="./images/serviceLog4.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Power Lifting</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href="#"><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+                <div class="serviceWeProvideBox">
+                    <img src="./images/servicelogo5.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Body Building</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href="#"><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between pb-5 gap-3">
+                <div class="serviceWeProvideBox">
+                    <img src="./images/servicelogo7.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Boxing Class</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href=""><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+                <div class="serviceWeProvideBox">
+                    <img src="./images/servicelogo8.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Yoga Fitness Class</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href=""><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+                <div class="serviceWeProvideBox">
+                    <img src="./images/servicelogo9.png" alt="img" width="80px" height="80px"><br><br>
+                    <h4>Meditation Class</h4>
+                    <p>High-intensity workouts that alternate between intense bursts of exercise and short recovery periods...</p>
+                    <a href=""><span class="readMoreArrow">&#8594;</span> READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="consultationBG">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="consultationText">
+                            <h6>MAKE AN APPOINTMENT</h6>
+                            <h2>Get a Free Consultancy <br> Right Now Here!</h2>
+                            <div class="d-flex align-items-center gap-3 mt-4">
+                                <button class="clickBtn">Make Appointment</button>
+                                <div class="d-flex align-items-center">
+                                    <img src="./images/abtPhnIcon.png" alt="icon" width="60px" height="60px" style="margin-right: 10px;">
+                                    <div>
+                                        <p class="mb-0" style="color: white;">Need Help?</p>
+                                        <a href="tel:25825692582" style="text-decoration: none; color:rgb(255, 255, 255); font-weight: 700;">(+258)25692582</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-5">
+            <div class="Headlines text-center py-5">
+                <span>PRICING PLAN</span>
+                <h2>Our Pricing Plan</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="pricingBG pb-5">
+                        <img src="./images/pricingplan1.png" alt="img" width="100px" height="90px">
+                        <h2>Basic Membership</h2>
+                        <div class="d-flex pricingDiv">
+                            <span>$</span><h3>19</h3>
+                            <span style="padding-top: 24px;">/month</span>
+                                                
+                        </div>
+                        <hr>
+                        <div>
+                            <p>This Category typically offers access to the gym's facilities and equipment</p>
+                            <ul  style="list-style: none;">
+                                <li><i class="fa fa-check-circle"></i> 12 Trainings</li>
+                                <li><i class="fa fa-check-circle"></i> Free shower & lockers</li>
+                                <li><i class="fa fa-check-circle"></i> Personal yoga mat</li>
+                                <li><i class="fa fa-check-circle"></i> Free parking</li>
+                            </ul>
+                        </div>
+                        <button class="clickBtn">Choose This Plan</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="pricingBG2 pb-5">
+                        <img src="./images/pricingplan2.png" alt="img" width="100px" height="90px">
+                        <h2>Standard Membership</h2>
+                        <div class="d-flex pricingDiv">
+                            <span>$</span><h3>39</h3>
+                            <span style="padding-top: 24px;">/month</span>
+                                                
+                        </div>
+                        <hr>
+                        <div>
+                            <p>This Category typically offers access to the gym's facilities and equipment</p>
+                            <ul style="list-style: none;">
+                                <li><i class="fa fa-check-circle"></i> 12 Trainings</li>
+                                <li><i class="fa fa-check-circle"></i> Free shower & lockers</li>
+                                <li><i class="fa fa-check-circle"></i> Personal yoga mat</li>
+                                <li><i class="fa fa-check-circle"></i> Free parking</li>
+                            </ul>
+                        </div>
+                        <button class="clickBtn">Choose This Plan</button>
+                    </div>
+                </div>                 
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="pricingBG pb-5">
+                        <img src="./images/pricingplan3.png" alt="img" width="100px" height="90px">
+                        <h2>Ultimate Membership</h2>
+                        <div class="d-flex pricingDiv">
+                            <span>$</span><h3>69</h3>
+                            <span style="padding-top: 24px;">/month</span>
+                                                
+                        </div>
+                        <hr>
+                        <div>
+                            <p>This Category typically offers access to the gym's facilities and equipment</p>
+                            <ul style="list-style: none;">
+                                <li><i class="fa fa-check-circle"></i> 12 Trainings</li>
+                                <li><i class="fa fa-check-circle"></i> Free shower & lockers</li>
+                                <li><i class="fa fa-check-circle"></i> Personal yoga mat</li>
+                                <li><i class="fa fa-check-circle"></i> Free parking</li>
+                            </ul>
+                        </div>
+                        <button class="clickBtn">Choose This Plan</button>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script>
+        fetch("includes/footer.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+                console.log(footer);
+            })
+            .catch(err => console.log("Error loading footer:", err));
+    </script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
